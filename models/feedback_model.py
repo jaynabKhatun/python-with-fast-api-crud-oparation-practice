@@ -12,9 +12,4 @@ class FeedbackBase(BaseModel):
     feedbackTime: datetime
 
 
-class FeedbackCreate(FeedbackBase):
-    pass
 
-
-class FeedbackResponse(FeedbackBase):
-    _id: str
